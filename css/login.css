@@ -1,0 +1,50 @@
+body
+{
+	background: #FFFFFF;
+}
+
+
+fieldset
+{/*
+	margin-left: 350px;
+	margin-top: 150px;
+	margin-right: 150px;
+	margin-bottom: 150px;*/
+	margin: 150px 250px 150px 350px;
+	padding: 20px;
+}
+
+legend
+{
+	background: rgba(255,255,255,0.2);
+	border: 0px;
+}
+
+img
+{
+	width:30px;
+	height:30px;
+}
+
+/*.log:hover
+{
+	width:60px;
+	height:60px;
+}*/
+
+input
+{
+	border:1px solid;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.register
+{
+	margin-left:50px;
+}
+
+/*.classRegister
+{
+	border-radius: 8px;
+}*/

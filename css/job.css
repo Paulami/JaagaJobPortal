@@ -1,0 +1,58 @@
+body {
+  padding-bottom: 40px;
+  background-color: #eee;
+}
+
+form {
+    font-family: "Raleway", Raleway, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    width: 300px;
+    margin: 0 auto;
+}
+
+label{
+    font-family: "Raleway", Raleway, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #999999;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.jobtitle {
+  font-family: "Raleway", Raleway, sans-serif;
+  font-style: italic;
+  text-align: left;
+  max-width: 300px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.description {
+  font-family: "Raleway", Raleway, sans-serif;
+  font-style: italic;
+  text-align: left;
+  max-width: 300px;
+  height: 70px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.budget {
+  font-family: "Raleway", Raleway, sans-serif;
+  font-style: italic;
+  text-align: left;
+  max-width: 300px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.signup {
+  font-size: 17px;
+  font-family: "Raleway", Raleway, sans-serif;
+  font-weight: bold;
+  max-width: 300px;
+  padding: 5px;
+  margin: 0 auto;
+}

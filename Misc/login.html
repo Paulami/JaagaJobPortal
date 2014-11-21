@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="bootstylesheet.css">
+    <link rel="stylesheet" type="text/css" href="font/glyphicons-halflings-regular.ttf">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+      <form>
+            <fieldset>
+              <legend class="legend">LOGIN</legend>
+                <!-- <label for="userName">User Name</label> -->
+                  <img class="log" src="user-01-128.png" ><br/><input class="loginName" type="text" name="userName" placeholder=" User Name"><br/><br/>
+                <!-- <label for="passWord">Password</label> -->
+                <img class="log" src="Security-Key-icon.png" ><br/><input class="passWord" type="password" name="passWord" placeholder=" Password"><br/><br/>
+
+
+<!--                   <button type="button" class="btn btn-default" aria-label="Left Align">
+                    <span class="glyphicon glyphicon-align-left" aria-hidden="true"></span>
+                  </button> -->
+
+                  <div>
+                  <button type="button" onclick="location.href = 'index.html';" class="btn btn-default btn-lg">
+                    <span class="glyphicon glyphicon-circle-arrow-right" aria-hidden="true"></span> 
+                  </button>
+
+                  <span class="register"><label>New User?</label>
+                   <!-- <button class="classRegister" type="button"><img src="images.png"></button> -->
+                   <button onclick="location.href = 'signup.html';" type="button" class="btn btn-default btn-lg">
+                  <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                  </button>
+
+
+                 </span>
+                   
+                 </div>
+
+            </fieldset>  
+
+      </form> 
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
